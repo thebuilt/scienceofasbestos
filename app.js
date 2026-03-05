@@ -2,7 +2,7 @@ const CONFIG = {
   worldTopoUrl: "./data/world/countries-110m.json",
   indiaGeoJsonUrl: "./data/india-states-simplified.geojson",
   countryDataUrl: "./data/country-data.json",
-  ownerReviewGithubRepo: "", // Example: "your-org/asbestos-map-updates"
+  ownerReviewGithubRepo: "thebuilt/scienceofasbestos",
   ownerReviewLabels: ["country-update", "owner-review"]
 };
 
