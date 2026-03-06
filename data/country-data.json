@@ -21,6 +21,13 @@
     "Taiwan, Province of China": "Taiwan"
   },
   "countries": {
+    "Antarctica": {
+  "status": "Not Applicable",
+  "organisations": "Not applicable",
+  "recordKeeping": "Not applicable",
+  "remarks": "No permanent civilian population; asbestos-use status not classified.",
+  "source": "Site policy"
+},
     "India": {
       "status": "Still in Use",
       "organisations": "Not yet populated",
