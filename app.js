@@ -239,7 +239,7 @@ function renderMap(worldTopo, indiaGeo) {
     .append("path")
     .attr("class", "country")
     .attr("data-country", (d) => d.properties.name)
-    .attr("fill", (d) => {
+    .style("fill", (d) => {
       const rec = getRecordByCountry(d.properties.name);
       return `var(--${statusToClass(rec.status)})`;
     })
@@ -274,7 +274,7 @@ function renderMap(worldTopo, indiaGeo) {
     .append("path")
     .attr("class", "country india-part")
     .attr("data-country", "India")
-    .attr("fill", () => {
+    .style("fill", () => {
       const rec = getRecordByCountry("India");
       return `var(--${statusToClass(rec.status)})`;
     })
